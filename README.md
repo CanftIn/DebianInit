@@ -11,7 +11,7 @@ A script for fast deployment of desktop environment on Debian 7 with personal pr
 ```
 su
 apt-get install sudo git
-git clone https://github.com/grapeot/DebianInit
+git clone https://github.com/CanftIn/DebianInit
 visudo # grant your user the sudo privilege
 exit
 cd DebianInit
