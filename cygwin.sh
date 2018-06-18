@@ -12,8 +12,8 @@ git clone --recursive https://github.com/grapeot/.dotfiles
 ln -s .dotfiles/.tmux.conf .tmux.conf
 cat .tmux.conf | grep -v 'powerline' | tee .tmux.conf  # Windows cannot use powerline?
 # git configuration
-git config --global user.name "Yan Wang"
-git config --global user.email grapeot@outlook.com
+git config --global user.name "canftin"
+git config --global user.email wwc7033@gmail.com
 git config --global color.ui auto
 # ssh configuration (won't take effect until restart)
 cat /etc/sshd_config | sed 's/Port 22/Port 30/' | tee /etc/ssh/sshd_config 

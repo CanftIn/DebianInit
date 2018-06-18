@@ -15,8 +15,8 @@ git clone --recursive https://github.com/grapeot/.dotfiles
 ./.dotfiles/deploy_linux.sh
 popd
 # git configuration
-git config --global user.name "Yan Wang"
-git config --global user.email grapeot@gmail.com
+git config --global user.name "canftin"
+git config --global user.email wwc7033@gmail.com
 git config --global push.default simple # eliminate the warning message of the new version git
 git config --global color.ui auto
 git config --global core.fileMode false
